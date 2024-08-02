@@ -14,8 +14,7 @@ const FetchImages = () => {
         return response.json();
       })
       .then((data) => {
-        setData(data);
-        console.log(data);
+        setData(data.slice(0,50));
         setLoading(false);
       })
       .catch((error) => {
@@ -35,6 +34,7 @@ const FetchImages = () => {
   return (
     <div>
       <h1> Fetched images</h1>
+
       <ul>
         
         {data.map((item) => (
@@ -42,11 +42,10 @@ const FetchImages = () => {
             <hr /> <br />
             <div>
               <h3>
-                <b>Title: {item.title}</b>
+                <b>{item.id}. Title: {item.title}</b>
               </h3>
               <img src={item.thumbnailUrl} alt={item.title} srcset="" />
               <br />
-              {/* <img src={item.url} alt={item.title} srcset="" /> */}
             </div>
           </li>
         ))}
