@@ -7,7 +7,8 @@ import FundamentalsOfApi from "./components/FetchAPI/FundamentalsOfApi";
 import FetchImages from "./components/FetchAPI/FetchImages";
 import FetchImagesWithId from "./components/FetchAPI/FetchImagesWithId";
 import AxiosAPI from "./components/FetchAPI/AxiosAPI";
-import TailwindCss from "./components/TailwindCss";
+import TailwindCss from "./components/TailwindCSS/TailwindCss";
+import Cards from "./components/TailwindCSS/Cards"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path="fetching-images-with-id" element={<FetchImagesWithId/>} />
       <Route path="get-api-data-using-axios" element={<AxiosAPI/>}/>
       <Route path="tailwind-css"  element={<TailwindCss/>}/>
+      <Route path="/cards-using-tailwind" element={<Cards/>}/>
     </Routes>
   );
 }

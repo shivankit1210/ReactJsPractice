@@ -1,0 +1,7 @@
+/* linkedin Bio */
+Recent graduate Passionate about front-end development with strong skills in HTML, CSS,
+                JavaScript, and ReactJS. Proficient in using tools like GitHub,
+                Bootstrap, and Firebase. Currently learning Next.js to further enhance my
+                development capabilities. Actively seeking opportunities in
+                front-end web technologies. Let's connect and explore opportunities in the
+                tech world!
