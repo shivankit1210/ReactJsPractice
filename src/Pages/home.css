@@ -1,4 +1,4 @@
-h1{
+/* h1{
     color: blue;
     font-size: larger;
     background-color: rgb(255, 187, 86);
@@ -8,12 +8,13 @@ h1{
     align-items: center;
     justify-content: center;
     height: 8vh;
-}
+} */
 
-h1:hover{
+/* h1:hover{
     background-color:antiquewhite ;
-    cursor: pointer;
-}
+    cursor: pointer; 
+} 
+    */
 .home{
    display: flex;
    flex-direction: column;
@@ -24,14 +25,14 @@ h1:hover{
 
 .home-container{
     border-radius: 1rem;
-    width: 100vw;
-    /* max-width: 100vw; */
-    /* background-color: rgb(159, 252, 252); */
-        display: flex;
+    width: 100vw; 
+    /* max-width: 100vw; 
+    /* background-color: rgb(159, 252, 252);  */
+     display: flex;
     flex-direction: column;
     margin-top: 5rem;
-}
+} 
 
-.home-container:hover{
+ .home-container:hover{
     background-color: antiquewhite;
-}
+} 

@@ -39,7 +39,7 @@ const AxiosAPI = () => {
     onChange={(e) => setInputText(e.target.value)}
     placeholder="enter random text or name"
   />
-  <button type="submit">Generate image</button>
+  <button  type="submit">Generate image</button>
 </form>
         Loading.....Please Wait</div>
   }
