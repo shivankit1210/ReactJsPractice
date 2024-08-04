@@ -6,10 +6,14 @@ const TailwindCss = () => {
   const navigate =useNavigate();
   return (
 
-    <div className=" bg-cyan-600 h-96  place-content-center  ">
+    <div className=" flex-row bg-cyan-600 h-screen  place-content-center  ">
 
-      <div>
-      <button className="text-white flex place-content-center  " onClick={()=>navigate("/cards-using-tailwind")}>click here</button>
+      <div className="flex flex-col m-20 p-10 gap-10 place-content-center"> 
+      <button className="text-white   " onClick={()=>navigate("/cards-using-tailwind")}>click here To view Card Create using Tailwind</button>
+      <button className="text-white   " onClick={()=>navigate("/cards-using-tailwind")}>State function in Tailwind CSS</button>
+      {/* <button className="text-white   " onClick={()=>navigate("/cards-using-tailwind")}>click here To view Card Create using Tailwind</button>
+      <button className="text-white   " onClick={()=>navigate("/cards-using-tailwind")}>click here To view Card Create using Tailwind</button>
+      <button className="text-white   " onClick={()=>navigate("/cards-using-tailwind")}>click here To view Card Create using Tailwind</button> */}
 
       </div>
      
